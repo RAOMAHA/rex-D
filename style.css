@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+.top-content{
+    margin-top: 100px;
+    padding-left: 20px;
+    font-weight: 1000;
+}
+.top-p, .btn{
+    margin-left:30px;
+}
+img {
+    width: 600px;
+}
+.card{
+    margin-top: 150px;
+}
+.content{
+    text-align: center;
+    margin-top: 150px ;
+}
+.row-one, .row-two{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-parent{
+    background: #fff;
+    display:flex;
+    margin:80px 0;
+}
+.contact-child{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+.child1{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/contact\ img.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:#fff;
+    padding:100px 0;
+}
+.child1 p{
+    padding-left:20%;
+    font-size:20px;
+    text-shadow:0px 0px 2px #000;
+}
+ 
+.child1 p span{
+    font-size:16px;
+    color:#9df2fd;
+}
+.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.inside-contact{
+    width:90%;
+    margin:0 auto;
+}
+ 
+.inside-contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:50px;
+}
+ 
+.inside-contact h3{
+    text-align:center;
+    font-size:16px;
+    color:#0085e2;
+}
+.inside-contact input, .inside-contact textarea{
+    width:100%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+}
+.inside-contact input[type=submit]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:2px solid #000;
+    margin:30px 0;
+}
+.inside-contact input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+@media screen and (max-width:991px){
+    .contact-parent{
+        display:block;
+        width:100%;
+    }
+ 
+    .child1{
+        display:none;
+    }
+ 
+    .child2{
+        background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+        background-size:cover;
+    }
+ 
+    .inside-contact input, .inside-contact textarea{
+        background-color:#fff;
+    }
+}
+.footer-custom ul li {
+    list-style: none;
+  }
+   /* netflix content image css */
+   .netflix-content:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+ 
+  
+  /* footer arrow css */
+  .arrow {
+    float: right;
+    border: 2px solid white;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .arrow:hover {
+    cursor: pointer;
+  }
+  
+
